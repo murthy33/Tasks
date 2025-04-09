@@ -1,0 +1,189 @@
+.title{
+    position:relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 84px;
+    height: 36px;
+    text-align: left;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 2px; 
+    font-size: 24px
+}
+.table-container{
+    padding: 31px;
+    width: 1317px;
+
+}
+.custom-table{
+    width: 100%;
+    margin-top: 1px;
+    border-collapse: separate;
+    border-spacing: 0 10px; 
+}
+
+.custom-table th{
+    height: 50px;
+    text-align: left;
+}
+.custom-table td {
+    padding: 6px 2px;
+  }
+.taskname {
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 20px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 1;
+  }
+  .task-checkbox {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+.task-label {
+    flex: 1;
+}
+  
+.deadline{
+    width: auto;
+    height: 20px;
+    text-align: left;
+    font: 16px/20px 'Inter', sans-serif;
+    color: #000000;
+    opacity: 1;
+      
+}
+.status{
+    width: auto;
+    height: 20px;
+    padding-left: 20px;
+    text-align: left;
+    font: 500 16px/20px 'Inter', sans-serif;
+    letter-spacing: 0;
+    color: #000;
+    opacity: 1;
+
+}
+.workingtime{
+    width: auto;
+    height: 20px;
+    text-align: left;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+font-family: 'Inter', sans-serif;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+
+  
+}
+.assignee{
+    width: auto;
+    height: 20px;
+    font-style: normal;
+font-variant: normal;
+font-weight: 500; 
+font-size: 16px;
+line-height: 17px;
+font-family: 'Inter', sans-serif;
+
+    
+}
+.assignee-img {
+    /*width: 30px;
+    height: 30px;
+    border-radius: 50%;   
+    object-fit: cover;
+    border: 1px solid #ccc; */
+    width: 30px;
+    height: 30px;
+    background: transparent url('img/Ellipse 56.png') center center / cover no-repeat;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 1;
+  }
+  
+  .status-cell {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .status-active {
+    width: 57px;
+    height: 33px;
+    background: #2BCA63 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  
+  .status-assigned {
+    width: 77px;
+    height: 33px;
+    background: #FF7C8A 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+  }
+  
+  .status-inprogress {
+    width: 91px;
+    height: 33px;
+    background: #009DCE 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+  }
+  
+  .status-stopped {
+    width: 72px;
+    height: 33px;
+    background: #FFBA21 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+  }
+  
+  .status-unassign {
+    width: 78px;
+    height: 33px;
+    background: #B3A5ED 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+  }
+  .assignee-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .card-popup {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 200px; 
+    top: 0;
+    z-index: 10;
+  }
+  .selected-row {
+    background-color: white;
+    
+  }
+  
+  

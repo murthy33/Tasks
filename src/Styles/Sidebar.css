@@ -1,0 +1,100 @@
+.sidebar{
+    height: 815px;
+}
+.sidebar.closed{
+    width: 75px;
+    background: #000000 0% 0% no-repeat padding-box;
+    box-shadow: 3px 0px 3px #00000029;
+    opacity: 1;
+}
+.sidebar.open{
+    width: 280px;
+    background: #000000 0% 0% no-repeat padding-box;
+    box-shadow: 3px 0px 3px #00000029;
+    opacity: 1;
+}
+.sidebar-item {
+    display: flex;
+    align-items: center;
+
+}
+
+.icon1{
+    opacity: 1;
+    margin-left: 22px;
+    margin-top: 29px;
+    width: 32px;
+    height: 32px;
+    color: white;
+}
+.icon2{
+    opacity: 1;
+    margin-left: 22px;
+    margin-top: 29px;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.icon3{
+    
+    opacity: 1;
+    margin-left: 22px;
+    margin-top: 29px;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.icon4{
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    margin-left: 22px;
+    margin-top: 29px;
+    width: 32px;
+    height: 32px;
+    color: white;
+}
+.task-management{
+    margin-top: 29px;
+    margin-left: 22px;
+    width: 176px;
+    height: 24px;
+    text-align: left;
+    font: normal normal medium 20px/24px Inter;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.tasks{
+    margin-top: 29px;
+    margin-left: 22px;
+    width: 45px;
+    height: 20px;
+    text-align: left;
+    font: normal normal medium 16px/20px Inter;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.mails{
+    margin-top: 29px;
+    margin-left: 22px;
+    width: 45px;
+    height: 20px;
+    text-align: left;
+    font: normal normal medium 16px/20px Inter;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.global{
+    margin-top: 29px;
+    margin-left: 22px;
+    width: 45px;
+    height: 20px;
+    text-align: left;
+    font: normal normal medium 16px/20px Inter;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}

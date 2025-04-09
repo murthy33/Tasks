@@ -1,0 +1,36 @@
+.mainContainer{
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 814px;
+    width: 1317px;
+}
+.topsection{
+    margin-top: 31px;
+    margin-left: 28px;
+}
+.tasksec{
+    width: 123px;
+    height: 45px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.performancesec{
+    width:150px;
+    height:45px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+}
